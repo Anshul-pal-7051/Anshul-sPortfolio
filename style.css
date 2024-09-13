@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 34);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+
+    background-color: rgb(18, 18, 62);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 2.3rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.03rem;
+
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin: 80px 0; */
+}
+
+/* .firstSection > div{
+        
+    } */
+
+.leftSection {
+    width: 350px;
+    background: #040113;
+    height: 659px;
+
+
+}
+
+.leftSection img {
+    margin: 20px 85px;
+    border-radius: 50%;
+    width: 45%;
+
+}
+
+.leftSection h2 {
+    margin: 0px 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+}
+
+.menu {
+    margin: 50px 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menu a:hover {
+    color: lavender;
+    font-size: 1.18rem;
+}
+
+.Copyright {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Copyrightt {
+    margin-left: 50px;
+}
+
+.Copyrightt a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.Copyrightt a:hover {
+    color: rgb(24, 24, 237);
+}
+
+.rightSection {
+    font-size: 2.5rem;
+    width: 1173px;
+    height: 659px;
+    background-image: url("img/me3.jpg");
+
+}
+
+.rightSectiontext {
+
+    margin: 375px 120px;
+    color: #022e35;
+    font-size: 3rem;
+
+}
+
+.purple {
+    color: rgb(67, 7, 123);
+
+}
+
+.text-grey {
+    color: grey;
+}
+
+#element {
+    color: rgb(67, 7, 123);
+
+}
+
+.secondSection {
+    width: 82.9vw;
+    margin: 150px 139px;
+   
+    height: 60vh;
+   
+}
+.skillsect{
+    background-color: white;
+    width: 82.9vw;
+    height: 40vh;
+}
+
+#hr {
+    height: 1px;
+    background-color: white;
+    border: 0px;
+    margin: 25px 84px;
+
+}
+
+.secondSection .box {
+    background-color: rgb(26, 26, 26);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+    margin-left: 15px;
+   
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 100px;
+
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+   
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    color: black;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 85px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: 0px 140px;
+    height: 140vh;
+}
+
+.About {
+    width: 82.5vw;
+    height: 40vh;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+}
+
+.About p {
+    margin: 20px 40px;
+}
+
+.thirdSection p {
+
+    font-size: 19px;
+    color: #040113;
+    
+}
+
+.personal-details {
+    margin: 40px 0px;
+    width: 82.5vw;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+}
+
+.leftSec img {
+    position: relative;
+    padding: 18px 30px;
+    width: 16vw;
+    height: 35vh;
+}
+
+.rightSec {
+    background-color: lavender;
+    width: 60vw;
+    height: 50vh;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.rightSec h1 {
+    color: rgb(25, 25, 57);
+    padding: 5px 20px;
+}
+
+.rightSec p {
+    padding: 5px 20px;
+}
+.credentials{
+display: flex;
+}
+.cred {
+  content: "\27A2";
+  color:black; 
+  font-size :1.2rem;
+  display: block;
+  margin: 40px 10px;
+}
+.cred a{
+    text-decoration:none;
+    color: rgb(0, 0, 0)
+}
+ #cred:hover{
+    color: rgb(50, 50, 203);
+    font-size: 1.25rem;
+
+}
+.leftSect{
+    height: 30vh;
+    width: 30vw;
+}
+.rightSect{
+    height: 30vh;
+    width: 30vw;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: 0px 140px;
+    margin-bottom: 100px;
+    height: 90vh;
+
+}
+
+.contacts {
+    display: flex;
+    margin: 25px 0px;
+
+}
+
+.leftSectiom {
+    background-color: white;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 5%;
+}
+
+.leftSectiom p {
+    margin-top: 0px;
+    margin-left: 75px;
+    color: #040113;
+    font-size: 2.2rem;
+}
+
+.leftSectiom h5 {
+    color: black;
+    margin: 0px 88px;
+
+}
+
+.leftSectiom svg {
+
+    color: rgb(23, 139, 168);
+    margin-top: 40px;
+    margin-left: 75px;
+    display: inline;
+
+}
+
+.hr {
+    margin-left: 79px;
+    background-color: rgb(235, 155, 7);
+    width: 70px;
+    height: 1.9px;
+    border: 0px;
+
+}
+
+.hrr {
+    margin-left: 85px;
+    background-color: rgb(235, 155, 7);
+    width: 105px;
+    height: 1.9px;
+    border: 0px;
+}
+
+.leftSectiom map {
+    height: 50vh;
+    width: 50vw;
+}
+
+.leftSectiom .map a img {
+    position: relative;
+    height: 40vh;
+    width: 30vw;
+    margin: 30px 30px;
+    border: 2px black solid;
+    border-radius: 5%;
+}
+
+.rightSectiom p {
+    margin: 30px 50px;
+    color: #040113;
+    font-size: 1.5rem;
+}
+
+
+
+.rightSectiom {
+    height: 80vh;
+    width: 50vw;
+    margin: 0 20px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#button {
+    width: 110px;
+    height: 30px;
+    margin-left: 230px;
+    background-color: rgb(51, 213, 221);
+    border-radius: 10%;
+    font-size: 1.5rem;
+}
+
+#name {
+
+    width: 30vw;
+    height: 5vh;
+}
+
+#email {
+
+    width: 30vw;
+    height: 5vh;
+}
+
+#subject {
+    width: 30vw;
+    height: 5vh;
+
+}
+
+#message {
+    width: 40vw;
+    height: 35vh;
+
+}
+
+.email {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(41, 38, 41);
+
+    /* height:230px; */
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  
+   
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul a:hover {
+
+    color: lavender;
+    font-size: 1.03rem;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px 0px;
+}
+.fifthSection{
+    max-width: 80vw;
+    margin: 0px 140px;
+    height: 160vh;
+    margin-bottom: 140px;
+  
+}
+.hr2ndsec{
+    margin-left: 1px;
+    background-color: rgb(235, 155, 7);
+    width: 93px;
+    margin-top: 7px;
+    height: 1.5px;
+    border: 0px;
+
+}
+.hr3rdsec{
+    margin-left: 2px;
+    background-color: rgb(235, 155, 7);
+    width: 105px;
+    margin-top: 7px;
+    height: 2px;
+    border: 0px;
+}
+.hr4thsec{
+    margin-left: 2px;
+    background-color: rgb(235, 155, 7);
+    width: 195px;
+    margin-top: 7px;
+    height: 2px;
+    border: 0px;
+}
+.hr5thsec{
+    margin-left: 2px;
+    background-color: rgb(235, 155, 7);
+    width: 135px;
+    margin-top: 7px;
+    height: 2px;
+    border: 0px;
+}
+.resume{
+    background-color: white;
+    height: 150vh;
+    margin-top: 27px;
+  width: 82vw;
+}
+.resume p{
+    color: black;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+}
+#resumep{
+    display: inline;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .btn  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .h2summary{
+    color: #120941;
+    margin: 0px 20px;
+  }
+  .res{
+    display: flex;
+  }
+  .leftsectio{
+
+        width: 40vw;
+        height: 85vh;
+        margin: 30px 20px;
+
+  }
+  .rightsectio{
+   
+    width: 40vw;
+    height: 85vh;
+    margin: 30px 20px;
+
+  }
+  .one{
+    height: 30vh;
+    width: 35vw;
+    background-color:rgb(207, 207, 228) ;
+    margin: 19px 20px;
+  
+  }
