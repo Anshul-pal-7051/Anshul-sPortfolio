@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
-    padding: 0;
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0c4c7f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(138, 138, 169);
+}
+
 
 body {
     background-color: rgb(0, 0, 34);
@@ -21,6 +46,8 @@ nav {
 nav ul {
     display: flex;
     justify-content: center;
+    /* height: 80px; */
+    /* align-items: center; */
 }
 
 nav ul li {
@@ -42,8 +69,25 @@ nav ul li a:hover {
 
 .left {
     font-size: 1.5rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
 }
-
+.left:hover{
+    background-color: rgb(235, 153, 10);
+    transition: 0.4s;
+}
+.right li{
+    height: 80px;
+    display: flex;
+    align-items: center;
+ 
+}
+.right li:hover{
+    background-color: rgb(235, 153, 10);
+    transition: 0.4s;
+}
 .firstSection {
     display: flex;
     /* justify-content: space-around; */
@@ -77,7 +121,7 @@ nav ul li a:hover {
 
 .links {
     display: flex;
-    margin-top: 20px;
+    margin-top: 2rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -87,7 +131,7 @@ nav ul li a:hover {
 }
 
 .menu {
-    margin: 50px 50px;
+    margin: 40px 50px;
 }
 
 .menu a {
@@ -135,6 +179,7 @@ nav ul li a:hover {
     margin: 375px 120px;
     color: #022e35;
     font-size: 3rem;
+    font-weight:bold;
 
 }
 
@@ -151,6 +196,12 @@ nav ul li a:hover {
     color: rgb(67, 7, 123);
 
 }
+.hrfirstsec{
+    background-color: rgb(235, 155, 7);
+    width: 100%;
+    height: 0.8vh;
+    border: none
+}
 
 .secondSection {
     width: 82.9vw;
@@ -163,6 +214,7 @@ nav ul li a:hover {
     background-color: white;
     width: 82.9vw;
     height: 40vh;
+    border-radius: 7px;
 }
 
 #hr {
@@ -231,6 +283,7 @@ nav ul li a:hover {
     margin-top: 20px;
     background-color: white;
     display: flex;
+    border-radius: 7px;
 }
 
 .About p {
@@ -250,6 +303,7 @@ nav ul li a:hover {
     height: 55vh;
     background-color: white;
     display: flex;
+    border-radius: 7px;
 }
 
 .leftSec img {
@@ -257,6 +311,7 @@ nav ul li a:hover {
     padding: 18px 30px;
     width: 16vw;
     height: 35vh;
+    
 }
 
 .rightSec {
@@ -265,6 +320,7 @@ nav ul li a:hover {
     height: 50vh;
     margin-top: 16px;
     margin-left: 5px;
+    border-radius: 7px;
 }
 
 .rightSec h1 {
@@ -321,7 +377,7 @@ display: flex;
     background-color: white;
     height: 80vh;
     width: 40vw;
-    border-radius: 5%;
+   border-radius: 7px;
 }
 
 .leftSectiom p {
@@ -334,27 +390,21 @@ display: flex;
 .leftSectiom h5 {
     color: black;
     margin: 0px 88px;
-
 }
-
 .leftSectiom svg {
 
     color: rgb(23, 139, 168);
     margin-top: 40px;
     margin-left: 75px;
     display: inline;
-
 }
-
 .hr {
     margin-left: 79px;
     background-color: rgb(235, 155, 7);
     width: 70px;
     height: 1.9px;
     border: 0px;
-
 }
-
 .hrr {
     margin-left: 85px;
     background-color: rgb(235, 155, 7);
@@ -362,37 +412,33 @@ display: flex;
     height: 1.9px;
     border: 0px;
 }
-
 .leftSectiom map {
     height: 50vh;
     width: 50vw;
 }
-
 .leftSectiom .map a img {
     position: relative;
     height: 40vh;
     width: 30vw;
     margin: 30px 30px;
     border: 2px black solid;
-    border-radius: 5%;
+    border-radius: 7px;
+    outline: auto;
+    border: none;
 }
-
 .rightSectiom p {
     margin: 30px 50px;
     color: #040113;
     font-size: 1.5rem;
 }
-
-
-
 .rightSectiom {
     height: 80vh;
     width: 50vw;
     margin: 0 20px;
     background-color: white;
     border-radius: 5%;
+    border-radius: 7px;
 }
-
 #button {
     width: 110px;
     height: 30px;
@@ -400,36 +446,31 @@ display: flex;
     background-color: rgb(51, 213, 221);
     border-radius: 10%;
     font-size: 1.5rem;
+  
 }
-
 #name {
-
     width: 30vw;
     height: 5vh;
+    border-radius: 5px;
 }
-
 #email {
-
     width: 30vw;
-    height: 5vh;
+    height: vh;
+    border-radius: 5px;
 }
-
 #subject {
     width: 30vw;
     height: 5vh;
-
+    border-radius: 5px;
 }
-
 #message {
     width: 40vw;
-    height: 35vh;
-
+    height: 25vh;
+    border-radius: 5px;
 }
-
 .email {
     text-decoration: none;
 }
-
 footer {
     background-color: rgb(41, 38, 41);
 
@@ -471,7 +512,7 @@ footer {
 .fifthSection{
     max-width: 80vw;
     margin: 0px 140px;
-    height: 160vh;
+    height: 180vh;
     margin-bottom: 140px;
   
 }
@@ -510,9 +551,11 @@ footer {
 }
 .resume{
     background-color: white;
-    height: 150vh;
+    height: 160vh;
     margin-top: 27px;
   width: 82vw;
+  border-radius: 7px;
+  margin-bottom:10rem ;
 }
 .resume p{
     color: black;
@@ -525,14 +568,26 @@ footer {
 .btn {
     background-color: DodgerBlue;
     border: none;
+    border-radius: 7px;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    cursor: pointer;
+    outline: none;
+  border: none;
+  box-shadow: 0 9px #999;
   }
   .btn:hover {
     background-color: RoyalBlue;
   }
+  
+    .btn:active{
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+  
   .btn  a{
     text-decoration: none;
     color: white;
@@ -550,6 +605,7 @@ footer {
         width: 40vw;
         height: 85vh;
         margin: 30px 20px;
+        
 
   }
   .rightsectio{
@@ -564,5 +620,8 @@ footer {
     width: 35vw;
     background-color:rgb(207, 207, 228) ;
     margin: 19px 20px;
-  
+    border-radius: 7px;
+  }
+  .one p{
+    font-size: 0.9999rem;
   }
